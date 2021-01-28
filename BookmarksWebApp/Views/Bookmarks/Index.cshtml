@@ -25,6 +25,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                <img style="height:32px" src="http://www.google.com/s2/favicons?sz=64%domain=@item.Url"/>
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
